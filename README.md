@@ -76,7 +76,7 @@ This is easible customizable in Jupyter lab for higher amounts, like 500 or 1000
 
 ## Contributors
 
-Written by team awesome fintech students
+Written by fintech team: 
 
 - Paola A. Carvajal Almeida [Linked In](https://www.linkedin.com/in/paolacarvajal/)
 - Jonathan Woolsey [GitHub](https://github.com/woodedlawn)
