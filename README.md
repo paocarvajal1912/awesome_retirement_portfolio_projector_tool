@@ -1,8 +1,8 @@
 # Awesome Retirement Portfolio Projector Tool
 
-The Awesome Retirement Portfolio Projector is a scalable, user friendly application that allows retail investors to do sophisticated predictive modeling for all phases of retirement.
+The Awesome Retirement Portfolio Projector is a scalable, user friendly application that allows retail investors to do sophisticated predictive modeling for their retirement portfolio.
 
-After answering a series of profile questions, retail investors are able to receive a recommended portfolio and to run statistical simulation on stocks in this optimized recommended portfolio; and get a good estimate of their portfolios likely outcome over a specified time horizon. Simulations make use of historical pricing data from the Alpaca API. Simulations can be run for three different risk profiles - Low, Moderate, and High. Lower risk profiles have their portfolio rebalanced to include fixed income as a percent of the portfolio.
+After answering a series of profile questions, retail investors are able to receive a recommended portfolio and to run statistical simulation on the positions allocated as this recommendation; and get an estimate of their portfolios likely outcome over a specified time horizon. Simulations use historical pricing data from the Alpaca API. Simulations can be run for three different risk profiles - Low, Moderate, and High. Lower risk profiles have their portfolio rebalanced to include higher allocation on fixed income.
 
 The application is a foundation that can be scaled to use a variety of input data sources, customizable expected returns, and limits on the allocation of individual assets. Profile questions can be modified to make a more detailed financial profile around common life scenarios such as debt, dependents, long term care, divorce, and multiple retirement income sources.
 
@@ -12,19 +12,19 @@ The application is a foundation that can be scaled to use a variety of input dat
 
 Built on Python, this application makes use of the following libraries:
 
-- Fire
-- Questionary
-- Numpy
-- Pandas
-- Voila
-- SciPy
-- alpaca_trade_api
-- sqlalchemy
-- dotenv
-- hvplot
-- matplotlib
+- `Fire`
+- `Questionary`
+- `Numpy`
+- `Pandas`
+- `Voila`
+- `SciPy`
+- `alpaca_trade_api`
+- `sqlalchemy`
+- `dotenv`
+- `hvPlot`
+- `matplotlib`
 
-The Alpaca Trade api provides a variety of updated stock and financial information.
+The Alpaca Trade api provides a variety of updated securities and financial information.
 
 ---
 
